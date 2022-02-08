@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+
+    <script>
+        function demo() {
+            var a=document.getElementById("t1").value
+            var b=document.getElementById("t2").value
+            var c=document.getElementById("t3").value
+            document.getElementById("p1").innerHTML="Name:" + a;
+            document.getElementById("p2").innerHTML="Address:" + b;
+            document.getElementById("p3").innerHTML="Email:" + c;
+            console.log("name:"+ a)
+            console.log("Address:"+ b)
+            console.log("Emai:"+ c)
+        }
+    </script>
+</head>
+<body>
+    <form>
+        Enter Your Name:<br/><input type="text" id="t1" /><br/>
+        Enter Your Address:<br/><input type="text" id="t2" name="address"/><br/>
+        Enter Your Email:<br/><input type="text" id="t3"/><br/><br/>
+        <input type="button" id="b1" value="Submit" onclick="demo()"/>
+        <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    </form >
+    
+    
+</body>
+</html>

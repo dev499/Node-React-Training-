@@ -1,0 +1,120 @@
+div{
+    margin:0px auto;
+    width:30%;
+    padding:30px;
+    font-size:20px;
+    background-color:#006699;
+}
+
+input[type=number]{
+    width:90%
+}
+
+input[type=text] select{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    font-size:14px;
+}
+
+input[type=button],[type=reset]{
+    width:100%;
+    background-color:#003399;	
+    color:white;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+input[type=button],[type=reset]{
+    background-color:#4cbb00;
+}
+
+h1{
+    color:#ff2502;
+    text-align:center;
+}
+
+div label{
+    color:white;
+}
+.internal th
+{
+    border:2px solid #bbbbbb;
+    border-collapse:collapse;
+    color: #ffffff;
+}
+.internal td
+{
+    border:2px solid #bbbbbb;
+    border-collapse:collapse;
+}
+.internal table
+{
+    border:2px solid #bbbbbb;
+    border-collapse:collapse;
+}
+.internal tr
+{
+    border:2px solid #bbbbbb;
+    border-collapse:collapse;
+}
+
+.internal {
+    font-size:smaller ;
+}
+.external table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.external th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: black;
+}
+
+.external td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.external t{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#name,#email,#address,#pcode,#mnum
+{
+    float:right;
+}
+
+/* 
+student Registration form align in center
+
+Name
+
+address
+
+Mob
+
+email address
+
+educational qualification: table format
+
+nationality: combobox at least add 5 nation's name
+
+subject: checkboxes
+
+gender : radiobutton
+
+list of the colleges List unoredered and ordered 
+
+submit html class */
+

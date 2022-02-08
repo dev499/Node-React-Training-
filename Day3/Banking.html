@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Banking Form</title>
+    <script src="Banking.js"></script>
+    <style>
+        h1{
+            text-align: center;
+            font-family: -webkit-pictograph;
+        }
+         form{
+            border: 2px solid blue;
+            margin: auto;
+            width: 35%; 
+            padding: 14px;
+            background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+        }
+
+        div{
+
+        width: 900px; height: 610px; margin:35px auto; font-family: system-Ui; text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>AAPNA BANK</h1>
+    <div>
+        <form method="get">
+            <label for="title"> Title</label>
+            <input type="radio" id="mr" name="title" value="Mr."/>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="ms" name="title" value="Ms."/>
+            <label for="Mr.">Ms.</label><br>
+
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fn" placeholder="Enter Your First Name" required/><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="ln" placeholder="Enter Your Last Name" required/><br>
+
+            <label for="mnumber">Mobile Number</label><br>
+            <input type="number" id="mnum" placeholder="Enter your Number" required/><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" id="em" placeholder="Enter your email" required/><br>
+
+            <label for="address">Address</label><br>
+            <input type="text" id="add" placeholder="Enter your address" required/><br>
+
+            <label>Gender</label><br>
+            <input type ="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type ="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type ="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br>
+
+            <label for="dob">DOB</label><br>
+            <input type="date" id="dob" required/><br>
+
+            <label for="adhar">Adhar Number</label><br>
+            <input type="number" id="ad" required/><br>
+
+            <label for="pan">Pan Number</label><br>
+            <input type="text" id="pan" required/><br>
+
+            <label for="maratial">Marital Status</label><br>
+            <select id="marat" name="marital status">
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
+            <option value="Widowed">Widowed</option>
+            <option value="Divorced">Divorced</option>
+            </select>
+		    <br>
+
+            <label for="occupation">Occupation</label><br>
+            <input type="text" id="oc" placeholder="Enter Your Occupation" required/>
+            <br><br>
+
+            <input type="submit" value="Sign-Up" onclick="validate()"/>
+        </form>
+    </div>
+</body>  
+</html>

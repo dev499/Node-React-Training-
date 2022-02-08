@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <script src="BankLogin.js"></script>
+    <style>
+        body{
+            background-image: url("https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/basics/blur-background/blur-background-og.jpg");
+        }
+    h1{
+        text-align: center;
+        font-family: monospace;
+    }
+    label {
+        color: floralwhite;
+    }
+    a{
+        color: floralwhite;
+    }
+     form{
+        border: 2px solid blue;
+        margin: auto;
+        width: 35%; 
+        padding: 40px;
+        background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png");
+    }
+
+    div{
+
+    width: 78%; height: 416px; margin:35px auto; font-family: system-Ui; text-align: center;
+
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Aapna Bank LogIn</h1>
+        <form>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email "><br>
+            <label for="pwd">Password</label><br>
+            <input type="password" id="pwd" name="pwd" minlength="8" placeholder="Enter Your Password"><br><br>
+            <input type="button" value="LogIn" onclick="validation()"><br><br>
+            <a href="../Day3/Banking.html">Click here to Register</a>
+        </form>
+    </div>
+</body>
+</html>
