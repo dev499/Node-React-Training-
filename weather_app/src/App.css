@@ -27,3 +27,12 @@
   font-size:55px;
   font-weight: 700;
 }
+.footer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+p{
+  margin-left: 48px;
+}

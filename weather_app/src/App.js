@@ -61,6 +61,10 @@ function App() {
               {data?.name}
             </h5>
             <h6 className="weathorTemp">{((data?.main?.temp) - 273.15).toFixed(2)}°C</h6>
+            <div className="footer">
+            <p>Longitude={data?.coord?.lon}</p>
+            <p>Latitude={data?.coord?.lat}</p>
+            </div>
           </div>
         </div>
       }
