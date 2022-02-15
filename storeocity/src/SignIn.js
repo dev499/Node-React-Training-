@@ -20,7 +20,7 @@ class SignIn extends Component {
 
   changeSubmit=(e) => {
     if(this.state.name==='admin@123' && this.state.pwd==='12345'){
-    this.setState({isLoggedIn:true})
+    
     }
     else{
       return alert('Enter correct email and password')
@@ -30,7 +30,7 @@ class SignIn extends Component {
 
   render() {
     return (
-      <form onSubmit={this.changeSubmit}>
+      <form >
         <h3>Sign In</h3>
         <div className="form-group">
           <label>Email address</label>
@@ -67,7 +67,7 @@ class SignIn extends Component {
           </div>
         </div>
         <Link to={'/'}>
-        <button type="submit" className="btn btn-primary btn-block">
+        <button type="submit" className="btn btn-primary btn-block" onClick={this.changeSubmit}>
           Submit
         </button>
         </Link>
@@ -79,4 +79,4 @@ class SignIn extends Component {
   }
 }
 
-export default SignIn;
+export default SignIn;    

@@ -10,6 +10,7 @@ import Womens from "./Womens";
 import Kids from "./Kids";
 import Watches from "./Watches";
 import Accessories from "./Accessories";
+import Error from "./Error";
 
 const App = () => {
  return(
@@ -17,6 +18,7 @@ const App = () => {
     <Router>
       <Navbar/>
       <Routes>
+        <Route path="/*" element={<Error/>}></Route>
         <Route path='/' exact element={<Home />}></Route>
         <Route path='/signin' exact element={<SignIn />}></Route>
         <Route path='/categories' exact element={<Categories />}></Route>
