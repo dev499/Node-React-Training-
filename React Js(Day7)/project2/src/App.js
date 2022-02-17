@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Comments from './Components/Comments';
 import Axpost from './Components/Axpost';
 import Location from './Components/Location';
+import Ref from './Ref';
 
 const App= () => {
   return (
     <div className="ui comments">
-      <Location />
+      <Ref/>
+      {/* <Location /> */}
       {/* <Axpost/> */}
       {/* <Comments/> */}
       {/* <Card className="text-center">
