@@ -7,10 +7,12 @@ import Comments from './Components/Comments';
 import Axpost from './Components/Axpost';
 import Location from './Components/Location';
 import Ref from './Ref';
+import Parent from './Parent';
 
 const App= () => {
   return (
     <div className="ui comments">
+      {/* <Parent/> */}
       <Ref/>
       {/* <Location /> */}
       {/* <Axpost/> */}
